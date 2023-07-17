@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url(https://images3.alphacoders.com/983/983231.jpg);
+    background-size: cover;
+    color: coral;
+}
+footer{
+    text-overflow: ellipsis;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: black;
+    font-size: xx-large;
+}
+button{
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 15px;
+    background-color: #039be5;
+    border-radius: 50px;
+}
+input{
+    background-color: skyblue;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+div{
+    color: red;
+    border-radius: 50px;
+    
+    font-size: xx-large;
+}
+a{
+    color: rgb(231, 228, 235);
+    text-decoration: none;
+    font-size: large;
+    border: 20px;
+    padding: 10px;
+    
+}
