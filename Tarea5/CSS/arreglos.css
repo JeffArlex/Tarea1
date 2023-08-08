@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20230522/original/pngtree-wallpaper-hd-nature-forest-lake-lake-in-autumn-picture-image_2696860.jpg);
+    background-size: cover;
+}
+footer{
+    text-overflow: ellipsis;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: rgb(14, 16, 19);
+}
+button{
+    padding: 5px 2px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 25px;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+input{
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 15px;
+    width: 30%;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+a{ 
+    text-decoration: none;
+    color: gold;
+    padding: 2px 5px; 
+    box-shadow: 50px;  
+}
+div{
+    color: black;
+    font-size: xx-large;
+    border-radius: 15px;
+}
