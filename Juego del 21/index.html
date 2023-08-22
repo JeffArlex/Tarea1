@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Juego del 21/CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>**JUEGO DEL 21**</h1>
+    </header>
+		<div class="tablero" id="tableroDiv"><canvas id="tablero"></canvas></div>
+		<div id="botones">
+            <input type="button" value="Empezar" onclick="empezar()" id="empezar" class="button" >
+			<input type="button" value="Pedir Carta" onclick="pedirCarta()" id="pedir" class="button" >
+			<input type="button" value="Jugar otra vez!" id="reset" onclick="jugarDeNuevo   ()" >
+			<input type="button" value="Terminar" onclick="terminar()" id="terminar" class="button" >
+		</div>
+		<div id="info"></div>
+        <footer>
+            <h6>Futuro rey de los ingenieros</h6>
+        </footer>
+        <script src="/Juego del 21/JS/main.js"></script>
+</body>
+</html>
